@@ -131,8 +131,8 @@ sudo chmod 777 .
 curl -fsSL https://raw.githubusercontent.com/i-nick/zerobrew/refs/heads/main/install.sh | bash
 export ZEROBREW_DIR="$HOME/.local"
 "$ZEROBREW_DIR/bin/zb" init
-"$ZEROBREW_DIR/bin/zb" install ffmpeg jq yt-dlp hf
-"$ZEROBREW_DIR/bin/zb" install cask:ghostty cask:visual-studio-code cask:brave-browser cask:httpie-desktop cask:zed
+"$ZEROBREW_DIR/bin/zb" install ffmpeg hf jq llama.cpp mactop python@3.12 python@3.14 xcodegen yt-dlp
+"$ZEROBREW_DIR/bin/zb" install cask:claude cask:claude-code cask:codex cask:codex-app cask:ghostty cask:visual-studio-code cask:brave-browser cask:httpie-desktop
 # Installing rustup
 curl https://sh.rustup.rs -sSf | sh -s -- -y
 # Installing bun.sh
